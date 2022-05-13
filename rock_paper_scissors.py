@@ -2,13 +2,13 @@ print("ROCK, PAPER, SCISSORS!")
 intro_q = input("How many players? Enter \"1\" or \"2\": ")
 intro_q = int(intro_q)
 
-user1 = input("First Player: rock, paper, or scissors? ")
+user1 = input("First Player: rock, paper, or scissors? ").lower()
 
 if intro_q == 2:
 
 	print("NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING \n \n NO CHEATING")
 
-	user2 = input("Second Player: rock, paper, or scissors? ")
+	user2 = input("Second Player: rock, paper, or scissors? ").lower()
 
 elif intro_q == 1:
 	import random
