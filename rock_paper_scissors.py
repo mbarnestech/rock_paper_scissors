@@ -64,9 +64,9 @@ while replay == "y": #keeps going until user says they don't want to play or res
 			print("Something went wrong. Typo?") #nothing added to win or tie counters
 
 	#sequence to determines who wins game
-	if first_player_wins > (out_of/2):
+	if first_player_wins > second_player_wins:
 		print (f"First player won {first_player_wins} rounds and wins the game!")
-	elif second_player_wins > (out_of/2):
+	elif second_player_wins > first_player_wins:
 		if intro_q == 2: #for two player game
 			print (f"Second player won {second_player_wins} rounds and wins the game!")
 		if intro_q == 1: #for one player game
